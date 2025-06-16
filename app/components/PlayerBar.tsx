@@ -17,11 +17,11 @@ export default function PlayerBar() {
   if (!trackId) return null;
 
   return (
-    <div className="fixed bottom-10 right-10 transform  z-50">
-      <div className="relative w-[500px] bg-zinc-900 border border-zinc-800 rounded shadow-lg p-2">
+    <div className="fixed bottom-20 right-10 transform  z-50">
+      <div className="relative w-full md:w-[500px] bg-zinc-900 border border-zinc-800 rounded shadow-lg p-2">
         <iframe
           src={`https://open.spotify.com/embed/track/${trackId}`}
-          width="450px"
+          width="90%"
           height="80"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture;"
           loading="lazy"
