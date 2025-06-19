@@ -18,3 +18,9 @@ Music Discovery is a modern web app that lets users explore and discover new mus
 - **TailwindCSS** for UI styling
 - **Spotify Web API** for music data
 - **Last.fm API** for artist biographies
+
+## 📸 Screenshots
+
+Screenshots of the app are available in the [`screenshots/`](./screenshots) folder.
+
+<img src="./screenshots/screenshot.png" alt="home" width=400 />
